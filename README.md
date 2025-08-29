@@ -17,7 +17,7 @@
 - Fetch products list
 - User login authentication
 
-##  How to Run
+##  Procedure to Run
 1. Clone the repo
 2. Install dependencies: `mvn clean install`
 3. Run tests: `mvn test`
