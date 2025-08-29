@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "Ecommerce API Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://fakestoreapi.com/products",
+          "protocol": "https",
+          "host": ["fakestoreapi","com"],
+          "path": ["products"]
+        }
+      }
+    },
+    {
+      "name": "User Login",
+      "request": {
+        "method": "POST",
+        "header": [{"key":"Content-Type","value":"application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"username\":\"mor_2314\", \"password\":\"83r5^_\" }"
+        },
+        "url": {
+          "raw": "https://fakestoreapi.com/auth/login",
+          "protocol": "https",
+          "host": ["fakestoreapi","com"],
+          "path": ["auth","login"]
+        }
+      }
+    }
+  ]
+}
